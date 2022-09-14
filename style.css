@@ -1,26 +1,74 @@
-body{
-    background-color: rgb(18, 18, 105);
+body {
+    background-color: whitesmoke font-family: 'Times New Roman', Times, serif;
+    margin: 0;
 }
-.container{
+
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.leftSide{
-    background-color: rgb(211, 211, 151);
+
+hr {
+    border: 1px solid white;
+    width: 80%;
+}
+
+a {
     color: white;
-    width: 500px;
-    height:800px;
+    cursor: pointer;
+
 }
 
-.rightSide{
-    background-color: white;
-    width: 500px;
-    height:800px;
+.leftSideContainer {
+    background-color: rgb(204, 151, 211);
+    color: white;
+    width: 300px;
+    line-height: 150%;
+    padding-left: 20px;
+    height: 1000px;
+
 }
 
-.myPhoto{
-    width: 80px;
-    height: 70px;
-    border-radius: 50%;
+.rightSide {
+    color: white;
+    background-color: rgb(179, 208, 245);
+    width: 500px;
+    height: 1000px;
+}
+
+.photoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myPhoto {
+    margin-top: 50px;
+    height: 300px;
+}
+
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.material-symbols-outlined {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    text-align: start;
+    width: 75%;
+    margin-left: 20px;
+}
+
+.skills {
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 20px 0;
+    line-height: 150%;
 }
