@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(18, 18, 105);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftSide{
+    background-color: rgb(211, 211, 151);
+    color: white;
+    width: 500px;
+    height:800px;
+}
+
+.rightSide{
+    background-color: white;
+    width: 500px;
+    height:800px;
+}
+
+.myPhoto{
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+}
