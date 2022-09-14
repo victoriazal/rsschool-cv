@@ -1,0 +1,81 @@
+body {
+    background-color: whitesmoke font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    border: 1px solid white;
+    width: 80%;
+}
+
+a {
+    color: white;
+    cursor: pointer;
+
+}
+
+.leftSideContainer {
+    background-color: rgb(204, 151, 211);
+    color: white;
+    width: 300px;
+    line-height: 150%;
+    padding-left: 20px;
+    height: 1050px;
+
+}
+
+.rightSide {
+    color: white;
+    background-color: rgb(179, 208, 245);
+    width: 500px;
+    height: 1050px;
+}
+
+.photoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myPhoto {
+    margin-top: 50px;
+    height: 300px;
+}
+
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.material-symbols-outlined {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    text-align: start;
+    width: 75%;
+    margin-left: 20px;
+}
+
+.skills {
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 20px 0;
+    line-height: 150%;
+}
+.spans{
+    display: flex;
+    padding-left: 10px;
+    margin: 0;
+    height: 40px;
+    align-items: center;
+}
