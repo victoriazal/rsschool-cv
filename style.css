@@ -26,7 +26,7 @@ a {
     width: 300px;
     line-height: 150%;
     padding-left: 20px;
-    height: 1000px;
+    height: 1050px;
 
 }
 
@@ -34,7 +34,7 @@ a {
     color: white;
     background-color: rgb(179, 208, 245);
     width: 500px;
-    height: 1000px;
+    height: 1050px;
 }
 
 .photoContainer {
@@ -71,4 +71,11 @@ ul {
     margin-top: 30px;
     padding: 20px 0;
     line-height: 150%;
+}
+.spans{
+    display: flex;
+    padding-left: 10px;
+    margin: 0;
+    height: 40px;
+    align-items: center;
 }
